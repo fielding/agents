@@ -1,0 +1,442 @@
+{
+  "version": 3,
+  "skills": {
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "skillFolderHash": "079b06a135401704ea94ab74c7c9d86c92ba259f",
+      "installedAt": "2026-01-27T02:21:47.164Z",
+      "updatedAt": "2026-01-27T02:21:47.164Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "c2f31172b6f256272305a5e6e7228b258446899f",
+      "installedAt": "2026-01-27T02:21:54.308Z",
+      "updatedAt": "2026-01-27T02:21:54.308Z"
+    },
+    "skill-creator": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/skill-creator/SKILL.md",
+      "skillFolderHash": "98a510d1cfef9f82c3b1eec200229ca68725e613",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-14T08:12:50.922Z",
+      "updatedAt": "2026-03-14T08:12:50.922Z"
+    },
+    "ast-grep": {
+      "source": "ast-grep/agent-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/ast-grep/agent-skill.git",
+      "skillPath": "ast-grep/skills/ast-grep/SKILL.md",
+      "skillFolderHash": "ef60f77564e2d47d0cba25a809daa3af8f0c469b",
+      "installedAt": "2026-03-15T06:11:04.904Z",
+      "updatedAt": "2026-03-15T06:11:04.904Z"
+    },
+    "ui-core": {
+      "source": "raphaelsalaja/userinterface-wiki",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/raphaelsalaja/userinterface-wiki.git",
+      "skillPath": "skills/SKILL.md",
+      "skillFolderHash": "7b2588047fed29a1e41a08b6287137cc940d6293",
+      "installedAt": "2026-03-19T20:43:20.974Z",
+      "updatedAt": "2026-03-19T20:43:20.974Z"
+    },
+    "brainstorming": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/brainstorming/SKILL.md",
+      "skillFolderHash": "2934541ea5541995c4a8eed5b4bda3cba4d24e85",
+      "installedAt": "2026-03-20T01:39:41.851Z",
+      "updatedAt": "2026-03-20T01:39:41.851Z"
+    },
+    "polish": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/polish/SKILL.md",
+      "skillFolderHash": "9160920cb415f359532f590bc303d5b44430f97a",
+      "installedAt": "2026-04-10T18:01:47.870Z",
+      "updatedAt": "2026-04-10T22:08:02.135Z"
+    },
+    "typeset": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/typeset/SKILL.md",
+      "skillFolderHash": "1db3ed28dcd69e92d574e039d74e8ef3fcc4855f",
+      "installedAt": "2026-04-10T22:08:01.311Z",
+      "updatedAt": "2026-04-10T22:08:01.311Z"
+    },
+    "quieter": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/quieter/SKILL.md",
+      "skillFolderHash": "16735975da51620d399c59323c7b801d1ceb5d3d",
+      "installedAt": "2026-04-10T22:08:01.615Z",
+      "updatedAt": "2026-04-10T22:08:01.615Z"
+    },
+    "shape": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/shape/SKILL.md",
+      "skillFolderHash": "cbacd0f3c585129ff464e004291aa27fbffcacdf",
+      "installedAt": "2026-04-10T22:08:01.838Z",
+      "updatedAt": "2026-04-10T22:08:01.838Z"
+    },
+    "overdrive": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/overdrive/SKILL.md",
+      "skillFolderHash": "06328e36925f552e01f433e10b2e29cc028c04a2",
+      "installedAt": "2026-04-10T22:08:02.347Z",
+      "updatedAt": "2026-04-10T22:08:02.347Z"
+    },
+    "optimize": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/optimize/SKILL.md",
+      "skillFolderHash": "e00f2fc4c03e6722dde7cb247b7da2c5e5eea65d",
+      "installedAt": "2026-04-10T22:08:02.571Z",
+      "updatedAt": "2026-04-10T22:08:02.571Z"
+    },
+    "layout": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/layout/SKILL.md",
+      "skillFolderHash": "a69d79063a6e6e0bc859b3d7b2a1962cc53f31a2",
+      "installedAt": "2026-04-10T22:08:02.811Z",
+      "updatedAt": "2026-04-10T22:08:02.811Z"
+    },
+    "impeccable": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/impeccable/SKILL.md",
+      "skillFolderHash": "e06e0b8cc19ef6792c27ea34db4a73497c74954e",
+      "installedAt": "2026-04-10T22:08:03.035Z",
+      "updatedAt": "2026-04-10T22:08:03.035Z"
+    },
+    "distill": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/distill/SKILL.md",
+      "skillFolderHash": "c6a2eed1c30a6a3c232253bbcca4fdb1f2f99f5e",
+      "installedAt": "2026-04-10T22:08:03.271Z",
+      "updatedAt": "2026-04-10T22:08:03.271Z"
+    },
+    "delight": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/delight/SKILL.md",
+      "skillFolderHash": "91a8624bf4bc516d7535d40a6d419389f5df6631",
+      "installedAt": "2026-04-10T22:08:03.512Z",
+      "updatedAt": "2026-04-10T22:08:03.512Z"
+    },
+    "critique": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/critique/SKILL.md",
+      "skillFolderHash": "b5e69d508a74f806e251412bb401cdf9393b490f",
+      "installedAt": "2026-04-10T22:08:03.727Z",
+      "updatedAt": "2026-04-10T22:08:03.727Z"
+    },
+    "colorize": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/colorize/SKILL.md",
+      "skillFolderHash": "3db845ae8453436ffd048d2e8b75fa5473a7fc64",
+      "installedAt": "2026-04-10T22:08:03.974Z",
+      "updatedAt": "2026-04-10T22:08:03.974Z"
+    },
+    "clarify": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/clarify/SKILL.md",
+      "skillFolderHash": "ca60ad29dd972bcfb95500fe0645a9b616e0facd",
+      "installedAt": "2026-04-10T22:08:04.230Z",
+      "updatedAt": "2026-04-10T22:08:04.230Z"
+    },
+    "bolder": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/bolder/SKILL.md",
+      "skillFolderHash": "442096e8807e1782157f2af19a6851e289252843",
+      "installedAt": "2026-04-10T22:08:04.462Z",
+      "updatedAt": "2026-04-10T22:08:04.462Z"
+    },
+    "audit": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/audit/SKILL.md",
+      "skillFolderHash": "a7401fdb75408b788e2dfbfc2450306d58221362",
+      "installedAt": "2026-04-10T22:08:04.763Z",
+      "updatedAt": "2026-04-10T22:08:04.763Z"
+    },
+    "animate": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/animate/SKILL.md",
+      "skillFolderHash": "614c17ccc214d6f194bcddf4765184071d6b7306",
+      "installedAt": "2026-04-10T22:08:04.982Z",
+      "updatedAt": "2026-04-10T22:08:04.982Z"
+    },
+    "adapt": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/adapt/SKILL.md",
+      "skillFolderHash": "3066c474cfe70dc936b3c8c86664f0913e1b228b",
+      "installedAt": "2026-04-10T22:08:05.280Z",
+      "updatedAt": "2026-04-10T22:08:05.280Z"
+    },
+    "teach": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/productivity/teach/SKILL.md",
+      "skillFolderHash": "fdc61615b4d56a04d88a69a135337f0cad9df235",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-06-09T03:43:09.190Z",
+      "updatedAt": "2026-06-09T03:43:09.190Z"
+    },
+    "redesign-existing-projects": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/redesign-skill/SKILL.md",
+      "skillFolderHash": "d9cffe56d26d4af7687299e391a7be1cfaf46c1b",
+      "installedAt": "2026-06-19T01:03:51.429Z",
+      "updatedAt": "2026-06-19T01:03:51.429Z"
+    },
+    "voice": {
+      "source": "fielding/skills-private",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fielding/skills-private.git",
+      "skillPath": "voice/SKILL.md",
+      "skillFolderHash": "f51bdab2db09ce77ba1d98c926fddb63b35bac9662313daea9c53c982c103880",
+      "installedAt": "2026-06-24T14:19:38.462Z",
+      "updatedAt": "2026-06-24T14:20:22.248Z"
+    },
+    "anti-slop": {
+      "source": "fielding/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fielding/skills.git",
+      "skillPath": "anti-slop/SKILL.md",
+      "skillFolderHash": "42e49669f04db260d0ab8384990bde90fed24209d328549cd748b9397265295a",
+      "installedAt": "2026-06-24T14:20:22.235Z",
+      "updatedAt": "2026-06-24T14:20:22.235Z"
+    },
+    "review-crew": {
+      "source": "fielding/skills-private",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fielding/skills-private.git",
+      "skillPath": "review-crew/SKILL.md",
+      "skillFolderHash": "5ec9634bfb82e7f2941320c7d681ac88baacbf6febea7f8b102288c6b0559acc",
+      "installedAt": "2026-06-24T14:20:22.240Z",
+      "updatedAt": "2026-06-24T14:20:22.240Z"
+    },
+    "scrub-ai-tells": {
+      "source": "fielding/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fielding/skills.git",
+      "skillPath": "scrub-ai-tells/SKILL.md",
+      "skillFolderHash": "2f7b9c0b1251d8e7bdea511d2a8441f8cc329c274978498f734817534b313392",
+      "installedAt": "2026-06-24T14:20:22.241Z",
+      "updatedAt": "2026-06-24T14:20:22.241Z"
+    },
+    "skill-distill": {
+      "source": "fielding/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fielding/skills.git",
+      "skillPath": "skill-distill/SKILL.md",
+      "skillFolderHash": "6522c6bdc80b847ee81836d4fa1cf2e7958bdcce405716f166b2fdae87c3ab03",
+      "installedAt": "2026-06-24T14:20:22.242Z",
+      "updatedAt": "2026-06-24T14:20:22.242Z"
+    },
+    "tix": {
+      "source": "fielding/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fielding/skills.git",
+      "skillPath": "tix/SKILL.md",
+      "skillFolderHash": "d709e2f5ac9cb3b91040d13937c43554f8a10bc767af515eeab9defd323cc522",
+      "installedAt": "2026-06-24T14:20:22.244Z",
+      "updatedAt": "2026-06-24T14:20:22.244Z"
+    },
+    "tutor": {
+      "source": "fielding/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fielding/skills.git",
+      "skillPath": "tutor/SKILL.md",
+      "skillFolderHash": "f558f19b7be5b7ada3b9fe22e6cd89cf6c302d027e675ddd0b30d5ec59826a56",
+      "installedAt": "2026-06-24T14:20:22.245Z",
+      "updatedAt": "2026-06-24T14:20:22.245Z"
+    },
+    "vault-triage": {
+      "source": "fielding/skills-private",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fielding/skills-private.git",
+      "skillPath": "vault-triage/SKILL.md",
+      "skillFolderHash": "28b8996302a5efb18d41e2ad4518f41e72bbf62e9f769bff4ef8ab6624a9bcb8",
+      "installedAt": "2026-06-24T14:20:22.246Z",
+      "updatedAt": "2026-06-24T14:20:22.246Z"
+    },
+    "git-factor": {
+      "source": "dkubb/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dkubb/agent-skills.git",
+      "skillPath": "skills/git-factor/SKILL.md",
+      "skillFolderHash": "a56358f1b2872d8478c20d748ab0905a08778e885e7ddef0ab0a0e9b68d81dce",
+      "installedAt": "2026-06-24T14:21:16.490Z",
+      "updatedAt": "2026-06-24T14:21:16.490Z"
+    },
+    "atomic-changes": {
+      "source": "dkubb/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dkubb/skills.git",
+      "skillPath": "skills/atomic-changes/SKILL.md",
+      "skillFolderHash": "1136e2f01631ef8c4303fb044be699e348d420ed",
+      "installedAt": "2026-06-24T14:21:59.555Z",
+      "updatedAt": "2026-06-24T14:21:59.555Z"
+    },
+    "state-space-minimization": {
+      "source": "dkubb/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dkubb/skills.git",
+      "skillPath": "skills/state-space-minimization/SKILL.md",
+      "skillFolderHash": "d2b62ab07e3accff8ec3dc9a114c2ec68e8cc139",
+      "installedAt": "2026-06-24T14:22:01.712Z",
+      "updatedAt": "2026-06-24T14:22:01.712Z"
+    },
+    "figma-implement-design": {
+      "source": "openai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/openai/skills.git",
+      "skillPath": "skills/.curated/figma-implement-design/SKILL.md",
+      "skillFolderHash": "122e36f32ef3fc85374d70c4fb62a83861816e40",
+      "installedAt": "2026-06-24T14:29:01.942Z",
+      "updatedAt": "2026-06-24T14:29:01.942Z"
+    },
+    "ui-style-neobrutalist": {
+      "source": "fielding/skills-private",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fielding/skills-private.git",
+      "skillPath": "ui-style-neobrutalist/SKILL.md",
+      "skillFolderHash": "ab794cfd9f000199506355824af928117ab22ca18eb264fd8ed618583d0293f1",
+      "installedAt": "2026-06-24T14:29:42.542Z",
+      "updatedAt": "2026-06-24T14:29:42.542Z"
+    },
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "skillFolderHash": "9b31e495b887e4ca123960415eca69fc7e1bba28",
+      "pluginName": "agent-browser",
+      "installedAt": "2026-06-24T14:45:47.910Z",
+      "updatedAt": "2026-06-24T14:45:47.910Z"
+    },
+    "core": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skill-data/core/SKILL.md",
+      "skillFolderHash": "47d84a91982d05dc082bc42bd1d0befe70d07dbb",
+      "installedAt": "2026-06-24T14:45:47.912Z",
+      "updatedAt": "2026-06-24T14:45:47.912Z"
+    },
+    "dogfood": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skill-data/dogfood/SKILL.md",
+      "skillFolderHash": "c818a5daf6e6ef6ec6375705df201499de4e6437",
+      "installedAt": "2026-06-24T14:45:47.912Z",
+      "updatedAt": "2026-06-24T14:45:47.912Z"
+    },
+    "rust-conventions": {
+      "source": "fielding/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fielding/skills.git",
+      "skillPath": "rust-conventions/SKILL.md",
+      "skillFolderHash": "38a33e0cc4ca4e0c0e8e4533e5a768db768d37c8edc6ae322791291a971d0e22",
+      "installedAt": "2026-06-24T21:44:36.247Z",
+      "updatedAt": "2026-06-24T21:44:36.247Z"
+    },
+    "intent": {
+      "source": "fielding/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fielding/skills.git",
+      "skillPath": "intent/SKILL.md",
+      "skillFolderHash": "4aa57d685c8270279c6ad2c1a9235be42764554ba37db58d444c453cf426a35a",
+      "installedAt": "2026-06-25T04:12:50.588Z",
+      "updatedAt": "2026-06-25T04:12:50.588Z"
+    },
+    "handoff": {
+      "source": "fielding/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fielding/skills.git",
+      "skillPath": "handoff/SKILL.md",
+      "skillFolderHash": "717f020b9d5ffe7e941e4e71bf7ad404d85fc362fe272d3d7eaaa15cb24156cb",
+      "installedAt": "2026-06-25T21:17:04.994Z",
+      "updatedAt": "2026-06-25T21:17:04.994Z"
+    },
+    "retro": {
+      "source": "fielding/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fielding/skills.git",
+      "skillPath": "retro/SKILL.md",
+      "skillFolderHash": "ca65ab04017bf05a1fc25b7861282768b2d15c7ce6b02d482acf579b7ccc5ca7",
+      "installedAt": "2026-06-25T21:17:07.719Z",
+      "updatedAt": "2026-06-25T21:17:07.719Z"
+    },
+    "gate": {
+      "source": "fielding/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fielding/skills.git",
+      "skillPath": "gate/SKILL.md",
+      "skillFolderHash": "b0db2dc75328351e1506fde7fbe748db8e5644867c2086b22639abffa1ed24d6",
+      "installedAt": "2026-06-25T21:41:49.525Z",
+      "updatedAt": "2026-06-25T21:41:49.525Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed",
+    "claude-code",
+    "pi"
+  ]
+}
