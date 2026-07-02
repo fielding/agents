@@ -55,14 +55,15 @@ CLI and tracked in the manifest. Big shout-out in particular to
 review code. Others come from vercel-labs, openai, and the wider agent-skills
 community.
 
-My own skills live in a separate, private repo and won't install for you. Half
-of them are work-specific anyway. What's here is the plumbing and the manifest,
-not the secret sauce.
+My own skills live in two separate repos: the polished ones are public at
+[fielding/skills](https://github.com/fielding/skills), the rest sit in a
+private repo and won't install for you. What's here is the plumbing and the
+manifest, not the skill content.
 
 ## Honest caveats
 
 This is a personal, opinionated setup. `sync` hardcodes my agent list and my
-paths, and the manifest points at a private repo you can't pull, so it won't run
-turnkey for anyone but me. Read it as a worked example of declarative skill
+paths, and the manifest pins some skills from a private repo you can't pull, so
+it won't run turnkey for anyone but me. Read it as a worked example of declarative skill
 management rather than something to install. If the part you came for is the
 shape of it (`manifest + sync + rebuild`), that idea travels just fine.
