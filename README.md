@@ -20,13 +20,15 @@ Four parts, that's the whole thing:
   `skills-lock.json` you see in projects is its per-project sibling.
 - **`sync`**: a small bash script that points each agent's `skills/` directory
   at one shared store (`~/.agents/skills`) with a single symlink apiece. Add a
-  skill once and every agent sees it, live.
+  skill once and every agent sees it, live. It also links each agent's global
+  instruction file (`CLAUDE.md`, Codex and pi `AGENTS.md`, `GEMINI.md`) to the
+  shared `AGENTS.md`.
 - **[`chopz`](https://github.com/fielding/chopz)** + **`.skill-bundles.json`**: the
   CLI that installs and manages the skills, plus the bundle file it reads. A bundle is
   a hand-written allowlist of skills and their sources (e.g. `gate` and everything it
   composes), so `chopz install gate` pulls exactly that set and nothing else.
 - **`AGENTS.md`**: a short set of global instructions all the agents read
-  (Claude picks it up through a `CLAUDE.md` symlink).
+  (Claude and Gemini pick it up through `CLAUDE.md` and `GEMINI.md` symlinks).
 
 `chopz` (`npx @fielding/chopz`) does more than bundles: same-repo dependency
 resolution, a dev-link loop for the skills I'm writing (`chopz link <repo>` makes edits
