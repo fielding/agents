@@ -37,15 +37,6 @@
       "installedAt": "2026-06-24T14:20:22.235Z",
       "updatedAt": "2026-06-24T14:20:22.235Z"
     },
-    "ast-grep": {
-      "source": "ast-grep/agent-skill",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/ast-grep/agent-skill.git",
-      "skillPath": "ast-grep/skills/ast-grep/SKILL.md",
-      "skillFolderHash": "ef60f77564e2d47d0cba25a809daa3af8f0c469b",
-      "installedAt": "2026-03-15T06:11:04.904Z",
-      "updatedAt": "2026-03-15T06:11:04.904Z"
-    },
     "atomic-changes": {
       "source": "dkubb/skills",
       "sourceType": "github",
@@ -136,33 +127,6 @@
       "installedAt": "2026-04-10T22:08:03.271Z",
       "updatedAt": "2026-04-10T22:08:03.271Z"
     },
-    "dogfood": {
-      "source": "vercel-labs/agent-browser",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
-      "skillPath": "skill-data/dogfood/SKILL.md",
-      "skillFolderHash": "c818a5daf6e6ef6ec6375705df201499de4e6437",
-      "installedAt": "2026-06-24T14:45:47.912Z",
-      "updatedAt": "2026-06-24T14:45:47.912Z"
-    },
-    "figma-implement-design": {
-      "source": "openai/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/openai/skills.git",
-      "skillPath": "skills/.curated/figma-implement-design/SKILL.md",
-      "skillFolderHash": "122e36f32ef3fc85374d70c4fb62a83861816e40",
-      "installedAt": "2026-06-24T14:29:01.942Z",
-      "updatedAt": "2026-06-24T14:29:01.942Z"
-    },
-    "find-skills": {
-      "source": "vercel-labs/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/vercel-labs/skills.git",
-      "skillPath": "skills/find-skills/SKILL.md",
-      "skillFolderHash": "c2f31172b6f256272305a5e6e7228b258446899f",
-      "installedAt": "2026-01-27T02:21:54.308Z",
-      "updatedAt": "2026-01-27T02:21:54.308Z"
-    },
     "gate": {
       "source": "fielding/skills",
       "sourceType": "github",
@@ -171,15 +135,6 @@
       "skillFolderHash": "b0db2dc75328351e1506fde7fbe748db8e5644867c2086b22639abffa1ed24d6",
       "installedAt": "2026-06-25T21:41:49.525Z",
       "updatedAt": "2026-06-25T21:41:49.525Z"
-    },
-    "gh-stack": {
-      "source": "github/gh-stack",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/github/gh-stack.git",
-      "skillPath": "skills/gh-stack/SKILL.md",
-      "skillFolderHash": "c95c8b5b4dd850f3fef007b304428f5684f2fb87",
-      "installedAt": "2026-08-07T19:57:01Z",
-      "updatedAt": "2026-08-07T19:57:03Z"
     },
     "git-factor": {
       "source": "dkubb/agent-skills",
@@ -262,15 +217,6 @@
       "installedAt": "2026-04-10T22:08:01.615Z",
       "updatedAt": "2026-04-10T22:08:01.615Z"
     },
-    "redesign-existing-projects": {
-      "source": "Leonxlnx/taste-skill",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
-      "skillPath": "skills/redesign-skill/SKILL.md",
-      "skillFolderHash": "d9cffe56d26d4af7687299e391a7be1cfaf46c1b",
-      "installedAt": "2026-06-19T01:03:51.429Z",
-      "updatedAt": "2026-06-19T01:03:51.429Z"
-    },
     "retro": {
       "source": "fielding/skills",
       "sourceType": "github",
@@ -315,15 +261,6 @@
       "skillFolderHash": "cbacd0f3c585129ff464e004291aa27fbffcacdf",
       "installedAt": "2026-04-10T22:08:01.838Z",
       "updatedAt": "2026-04-10T22:08:01.838Z"
-    },
-    "skill-creator": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/anthropics/skills.git",
-      "skillPath": "skills/skill-creator/SKILL.md",
-      "skillFolderHash": "98a510d1cfef9f82c3b1eec200229ca68725e613",
-      "installedAt": "2026-03-14T08:12:50.922Z",
-      "updatedAt": "2026-03-14T08:12:50.922Z"
     },
     "skill-distill": {
       "source": "fielding/skills",
@@ -379,15 +316,6 @@
       "installedAt": "2026-04-10T22:08:01.311Z",
       "updatedAt": "2026-04-10T22:08:01.311Z"
     },
-    "ui-core": {
-      "source": "raphaelsalaja/userinterface-wiki",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/raphaelsalaja/userinterface-wiki.git",
-      "skillPath": "skills/SKILL.md",
-      "skillFolderHash": "7b2588047fed29a1e41a08b6287137cc940d6293",
-      "installedAt": "2026-03-19T20:43:20.974Z",
-      "updatedAt": "2026-03-19T20:43:20.974Z"
-    },
     "ui-style-neobrutalist": {
       "source": "fielding/skills-private",
       "sourceType": "github",
@@ -406,15 +334,6 @@
       "installedAt": "2026-06-24T14:20:22.246Z",
       "updatedAt": "2026-06-24T14:20:22.246Z"
     },
-    "vercel-react-best-practices": {
-      "source": "vercel-labs/agent-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
-      "skillPath": "skills/react-best-practices/SKILL.md",
-      "skillFolderHash": "079b06a135401704ea94ab74c7c9d86c92ba259f",
-      "installedAt": "2026-01-27T02:21:47.164Z",
-      "updatedAt": "2026-01-27T02:21:47.164Z"
-    },
     "voice": {
       "source": "fielding/skills-private",
       "sourceType": "github",
@@ -424,66 +343,6 @@
       "installedAt": "2026-06-24T14:19:38.462Z",
       "updatedAt": "2026-06-24T14:20:22.248Z"
     },
-    "companion-clis": {
-      "source": "runpod/runpod-plugins-official",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/runpod/runpod-plugins-official.git",
-      "skillPath": "plugins/runpod/skills/companion-clis/SKILL.md",
-      "skillFolderHash": "cb50ea728c1cab893b1f86eb60f4d668b1aee574",
-      "pluginName": "runpod",
-      "installedAt": "2026-08-15T07:29:27.080Z",
-      "updatedAt": "2026-08-15T07:29:27.080Z"
-    },
-    "flash": {
-      "source": "runpod/runpod-plugins-official",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/runpod/runpod-plugins-official.git",
-      "skillPath": "plugins/runpod/skills/flash/SKILL.md",
-      "skillFolderHash": "4e57adc94eb584213752740990d02519806e9c46",
-      "pluginName": "runpod",
-      "installedAt": "2026-08-15T07:29:27.081Z",
-      "updatedAt": "2026-08-15T07:29:27.081Z"
-    },
-    "runpod": {
-      "source": "runpod/runpod-plugins-official",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/runpod/runpod-plugins-official.git",
-      "skillPath": "plugins/runpod/skills/runpod/SKILL.md",
-      "skillFolderHash": "360775b95d8c357e13eb9eee4a9741adb0149a6b",
-      "pluginName": "runpod",
-      "installedAt": "2026-08-15T07:29:27.082Z",
-      "updatedAt": "2026-08-15T07:29:27.082Z"
-    },
-    "runpod-mcp": {
-      "source": "runpod/runpod-plugins-official",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/runpod/runpod-plugins-official.git",
-      "skillPath": "plugins/runpod/skills/runpod-mcp/SKILL.md",
-      "skillFolderHash": "1eef4cbd4352dfe05079ea2ff9d103a6e4d3dcb6",
-      "pluginName": "runpod",
-      "installedAt": "2026-08-15T07:29:27.082Z",
-      "updatedAt": "2026-08-15T07:29:27.082Z"
-    },
-    "runpod-usage": {
-      "source": "runpod/runpod-plugins-official",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/runpod/runpod-plugins-official.git",
-      "skillPath": "plugins/runpod/skills/runpod-usage/SKILL.md",
-      "skillFolderHash": "f36eda8647a6f6e80e037c17510c4cabe40d92a7",
-      "pluginName": "runpod",
-      "installedAt": "2026-08-15T07:29:27.083Z",
-      "updatedAt": "2026-08-15T07:29:27.083Z"
-    },
-    "runpodctl": {
-      "source": "runpod/runpod-plugins-official",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/runpod/runpod-plugins-official.git",
-      "skillPath": "plugins/runpod/skills/runpodctl/SKILL.md",
-      "skillFolderHash": "d87b8cef24f1450c6cdb844acd6978cfb14021d2",
-      "pluginName": "runpod",
-      "installedAt": "2026-08-15T07:29:27.083Z",
-      "updatedAt": "2026-08-15T07:29:27.083Z"
-    },
     "system-atlas": {
       "source": "inkboard/system-atlas",
       "sourceType": "github",
@@ -492,15 +351,6 @@
       "skillFolderHash": "b1b09dbb05db0f280f0be66282efa3ee9f044a62",
       "installedAt": "2026-08-27T07:25:45.850Z",
       "updatedAt": "2026-08-27T07:25:45.850Z"
-    },
-    "solana-dev": {
-      "source": "solana-foundation/solana-dev-skill",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/solana-foundation/solana-dev-skill.git",
-      "skillPath": "skills/solana-dev/SKILL.md",
-      "skillFolderHash": "8a0d6c9122c722821a554aa12b21609daac1d104",
-      "installedAt": "2026-09-08T08:09:57.082Z",
-      "updatedAt": "2026-09-08T08:09:57.082Z"
     }
   },
   "dismissed": {
