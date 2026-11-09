@@ -4,13 +4,16 @@ set -euo pipefail
 AGENTS_SKILLS="$HOME/.agents/skills"
 
 # All agents use a directory-level symlink (skills/ -> ~/.agents/skills/).
+# Targets are absolute: ~/.claude and ~/.codex are themselves symlinks into
+# the stowed dotfiles repo, and a relative ../.agents/skills resolves against
+# that physical directory (~/etc/claude/.claude/..), not against ~.
 DIR_SYMLINK_TARGETS=(
-  "$HOME/.claude/skills|../.agents/skills"
-  "$HOME/.cursor/skills|../.agents/skills"
-  "$HOME/.copilot/skills|../.agents/skills"
-  "$HOME/.codex/skills|../.agents/skills"
-  "$HOME/.gemini/skills|../.agents/skills"
-  "$HOME/.pi/agent/skills|../../.agents/skills"
+  "$HOME/.claude/skills|$AGENTS_SKILLS"
+  "$HOME/.cursor/skills|$AGENTS_SKILLS"
+  "$HOME/.copilot/skills|$AGENTS_SKILLS"
+  "$HOME/.codex/skills|$AGENTS_SKILLS"
+  "$HOME/.gemini/skills|$AGENTS_SKILLS"
+  "$HOME/.pi/agent/skills|$AGENTS_SKILLS"
 )
 
 dry_run=false
@@ -24,7 +27,7 @@ for arg in "$@"; do
       echo "Usage: sync [--dry-run] [--verbose]"
       echo ""
       echo "Ensures all agent skill directories point to ~/.agents/skills/."
-      echo "All agents get a directory-level symlink to ~/.agents/skills/."
+      echo "All agents get a directory-level symlink to ~/.agents/skills/ (absolute target)."
       exit 0
       ;;
   esac
